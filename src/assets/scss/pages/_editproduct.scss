@@ -1,0 +1,73 @@
+.editproduct {
+  width: 100%;
+  background-image: url("../../images/oCHFZ3.webp");
+  padding: 100px 0;
+  .container {
+    width: 85%;
+    display: flex;
+    form {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      flex-direction: column;
+      .edit{
+        margin-left: 1rem;
+        font-family: gotham, Sans-Serif;
+        background-color: #f4f3f3;
+        border-radius: 0;
+        letter-spacing: 0.075rem;
+        border: solid 0.0625rem #f4f3f3;
+        width: 400px;
+        height: 50px;
+        margin-top: 20px;
+        overflow: visible;
+        outline: none;
+        padding: 5px;
+      }
+      .itemImg{
+          label{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        margin-top: 20px;
+        }
+      }
+      .editPreview{
+        width: 400px;
+        height: 400px;
+        img{
+          width: 400px;
+          height: 400px;
+          object-fit: contain;
+        }
+      }
+      .editbtn{
+        border: 1px solid #fff;
+        font-family: gotham, Sans-Serif;
+        min-width: 10rem;
+        display: inline-block;
+        padding: 1rem 1.2rem;
+        margin: 1rem 0px;
+        font-weight: 700;
+        font-size: 0.75rem;
+        line-height: 1.2;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        transition: 0.2s all ease-out;
+        color: #fff;
+        cursor: pointer;
+        z-index: 100;
+        &:hover {
+          transition: 0.2s all ease-out;
+          background: #272727;
+        }
+      }
+    }
+  }
+}

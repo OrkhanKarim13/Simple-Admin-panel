@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Gotham", Sans-Serif;
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Caveat:wght@400;500&family=DM+Sans:wght@400;500;700&family=Dancing+Script:wght@700&family=Lobster&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+Lao:wght@500;600&display=swap");
+  
+  h1, h2, h3, h4, h5, h6{
+    font-family: adobe-garamond-pro,times new roman,Serif;
+      line-height: 1.2em;
+      font-weight: 400;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+  }
+  
+  .container{
+    max-width: 1440px;
+    width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+  }
